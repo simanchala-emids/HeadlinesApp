@@ -18,6 +18,7 @@
 		8D82EE631FDAE51A00A8A291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D82EE611FDAE51A00A8A291 /* LaunchScreen.storyboard */; };
 		8D82EE6C1FDAE71200A8A291 /* SourcesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D82EE6B1FDAE71200A8A291 /* SourcesTableViewController.swift */; };
 		CE0633F0204D4C84007144E1 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0633EF204D4C84007144E1 /* Webservice.swift */; };
+		CE0633F3204D57CE007144E1 /* SouceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0633F2204D57CE007144E1 /* SouceListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8D82EE641FDAE51A00A8A291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D82EE6B1FDAE71200A8A291 /* SourcesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesTableViewController.swift; sourceTree = "<group>"; };
 		CE0633EF204D4C84007144E1 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Webservice.swift; path = HeadlinesApp/Services/Webservice.swift; sourceTree = SOURCE_ROOT; };
+		CE0633F2204D57CE007144E1 /* SouceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SouceListViewModel.swift; path = "HeadlinesApp/View Models/SouceListViewModel.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		8D82EE571FDAE51A00A8A291 /* HeadlinesApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE0633F1204D56D8007144E1 /* View Models */,
 				CE0633EE204D4C23007144E1 /* Services */,
 				8D117EC61FDCB9DE0048B808 /* Models */,
 				8D117EC31FDCB6A60048B808 /* Cells */,
@@ -113,6 +116,15 @@
 			);
 			name = Services;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CE0633F1204D56D8007144E1 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE0633F2204D57CE007144E1 /* SouceListViewModel.swift */,
+			);
+			name = "View Models";
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +202,7 @@
 				8D2002CB1FE57FF70031091B /* HeadlinesTableViewController.swift in Sources */,
 				8D2002CF1FE5C2FF0031091B /* HeadlineTableViewCell.swift in Sources */,
 				CE0633F0204D4C84007144E1 /* Webservice.swift in Sources */,
+				CE0633F3204D57CE007144E1 /* SouceListViewModel.swift in Sources */,
 				8D117EC81FDCB9E90048B808 /* Source.swift in Sources */,
 				8D82EE6C1FDAE71200A8A291 /* SourcesTableViewController.swift in Sources */,
 				8D82EE591FDAE51A00A8A291 /* AppDelegate.swift in Sources */,
