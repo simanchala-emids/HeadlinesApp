@@ -20,6 +20,12 @@ class Source {
         self.description = description 
     }
     
+    init(sourceViewModel :SourceViewModel) {
+        self.id = sourceViewModel.id
+        self.name = sourceViewModel.name
+        self.description = sourceViewModel.description
+    }
+    
     
     init?(dictionary :[String:Any]) {
         
